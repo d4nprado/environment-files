@@ -43,3 +43,28 @@ The `.zshrc` file configures Zsh with the following features:
 - `edit-zsh`: Edit Zsh configuration file
 - `cat`: Use `batcat` with Dracula theme
 - `ls`: Use `eza` with color and icons
+
+## Wezterm Configuration
+
+The `wezterm.lua` file configures Wezterm with the following features:
+- Custom color scheme with specified foreground, background, cursor, and selection colors.
+- Font settings using `JetBrains Mono` with a font size of 12.
+- Disabled tab bar for a cleaner interface.
+- Window decorations set to "RESIZE".
+- Window background opacity set to 90%.
+- Background blur for macOS set to 8.
+
+### Configuration Details
+- **Color Scheme:**
+  - Foreground: `#CBE0F0`
+  - Background: `#011423`
+  - Cursor: `#47FF9C`
+  - Selection: `#706b4e` (background), `#f3d9c4` (foreground)
+- **Font:**
+  - Name: `JetBrains Mono`
+  - Size: 12
+- **Window Settings:**
+  - Tab bar disabled
+  - Window decorations: "RESIZE"
+  - Background opacity: 0.90
+  - macOS background blur: 8
