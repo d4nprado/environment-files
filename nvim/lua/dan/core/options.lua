@@ -4,8 +4,8 @@ local opt = vim.opt
 
 opt.relativenumber = true
 opt.number = true
-	
---  tabs & indentation
+
+-- tabs & indentation
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
@@ -32,3 +32,6 @@ opt.clipboard:append("unnamedplus")
 -- split windows
 opt.splitright = true
 opt.splitbelow = true
+
+-- turn off swapfile
+opt.swapfile = false
